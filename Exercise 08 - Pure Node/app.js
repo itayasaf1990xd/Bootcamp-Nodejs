@@ -5,8 +5,9 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-// http://localhost:1337/
-// http://localhost:1337/users
+// Command to run the server: node app.js
+// http://localhost:8080/
+// http://localhost:8080/users
 
 const server = http.createServer(function (req, res) {
   console.log(req.method);
@@ -64,15 +65,15 @@ const server = http.createServer(function (req, res) {
         });
         res.end(
           JSON.stringify([{
-              name: "jordy",
-              age: 24
+              name: "shaked",
+              age: 29
             },
             {
-              name: "yaniv",
-              age: 23
+              name: "daniel",
+              age: 27
             },
             {
-              name: "tamer",
+              name: "ernest",
               age: 21
             },
           ]),
@@ -89,4 +90,8 @@ const server = http.createServer(function (req, res) {
     res.end("You can only do GET reqs");
   }
 });
-server.listen(1337);
+// server.listen(8080);
+
+server.listen(8080, () => {
+  console.log("Server is up on port ", "8080");
+});
