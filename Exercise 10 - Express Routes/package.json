@@ -1,0 +1,20 @@
+{
+  "name": "exercise-01---node-vs-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.17.2",
+    "uniqid": "^5.4.0",
+    "validator": "^13.7.0",
+    "yargs": "^17.3.1"
+  }
+}
