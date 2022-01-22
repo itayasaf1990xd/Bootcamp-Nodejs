@@ -1,0 +1,20 @@
+{
+  "name": "Exercise-18-Blog-Schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "15.1-restaurant_collection.js",
+  "scripts": {
+    "dev": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "mongoose": "^6.1.7",
+    "node-fetch": "^3.1.0",
+    "request": "^2.88.2",
+    "validator": "^13.7.0",
+    "nodemon": "^2.0.15"
+  }
+}
